@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start of nav section  */
+
+
+#top-nav nav{
+    flex-wrap: wrap;
+    
+}
+
+#top-nav .up{
+    display: flex;
+    background-color:rgb(23, 31, 31);
+    padding: 10px;
+    position: relative;
+    flex-direction: row;
+    
+
+ 
+}
+#top-nav .down {
+    
+    margin: auto;
+}
+
+#top-nav h1{
+    color: snow;
+    font-size: 2.4rem;
+}
+
+#top-nav  ul{
+    padding: 10px;
+    font-size: 1.5rem;
+    
+    
+    
+  
+    
+}
+
+#top-nav li{
+    list-style-type: none;
+   
+}
+
+#top-nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(131, 127, 127);
+    
+}
+
+
+#top-nav a:hover{
+
+    text-decoration:underline yellow;
+    
+}
+
+#top-nav .butt a{
+    color: black;
+    text-decoration: none;
+}
+
+#top-nav .cta{
+    border-radius: 3rem;
+    padding: 14px;
+    width: 200px;
+    font-size: 1.2rem ;
+    transition: 1s ease forwards;
+    transition-property: background-color, color;
+    background-color: yellow ;
+    
+}
+
+#top-nav .cta:hover{
+    background-color: crimson;
+
+}
+
+/* End of nav section */
+
+
+/* start introduction section */
+
+#introduction .intro{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+#introduction .intro2{
+   margin: auto;
+
+   
+ 
+}
+
+#introduction  .wa{
+    width: 46px;
+   
+}
+
+#introduction .int2{
+    border: 1px solid ;
+    border-radius: 4rem;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: -300px;
+    width:420px;
+    font-size: 2rem;
+    background-color: yellow;
+    text-align: center;
+    transition: 1s ease forwards;
+    transition-property: background-color,color;
+    
+}
+
+#introduction .int2:hover{
+    background-color: crimson;
+    
+}
+
+
+#introduction .int1{
+    border: 1px solid ;
+    border-radius: 4rem;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-left: -300px;
+    width: 540px;
+    height: 70px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+#introduction .myimi{
+    
+    margin: auto;
+    
+}
+
+
+#introduction p img{
+    align-items: center;
+    margin: -10px;
+}
+
+/* End of introduction section*/
