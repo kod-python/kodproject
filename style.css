@@ -8,25 +8,24 @@
 /* start of nav section  */
 
 
-#top-nav nav{
-    flex-wrap: wrap;
-    
-}
+
 
 #top-nav .up{
     display: flex;
     background-color:rgb(23, 31, 31);
     padding: 10px;
-    position: relative;
+    position:relative;
     flex-direction: row;
-    
 
- 
+  
 }
+
+
 #top-nav .down {
     
     margin: auto;
 }
+
 
 #top-nav h1{
     color: snow;
@@ -35,11 +34,7 @@
 
 #top-nav  ul{
     padding: 10px;
-    font-size: 1.5rem;
-    
-    
-    
-  
+    font-size: 1.5rem; 
     
 }
 
@@ -92,6 +87,7 @@
     display: flex;
     margin: auto;
     flex-wrap: wrap;
+ 
     
 }
 
@@ -110,13 +106,13 @@
 #introduction .int2{
     border: 1px solid ;
     border-radius: 4rem;
-    padding: 13px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-left: -300px;
-    width:420px;
-    font-size: 2rem;
+    margin-left: -19px;
+    width:90%;
+    font-size: 1.5rem;
     background-color: yellow;
     text-align: center;
     transition: 1s ease forwards;
@@ -133,15 +129,15 @@
 #introduction .int1{
     border: 1px solid ;
     border-radius: 4rem;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     margin: auto;
     text-align: center;
-    margin-left: -300px;
-    width: 540px;
+    margin-left: -29px;
+    width: 120%;
     height: 70px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: black;
     color: white;
     
@@ -150,15 +146,118 @@
 
 
 #introduction .myimi{
-    
-    margin: auto;
+    width: 479px;
     
 }
 
-
 #introduction p img{
-    align-items: center;
+   
     margin: -10px;
 }
 
 /* End of introduction section*/
+
+
+/* start of about section */
+
+#about .about-top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    text-align: justify;
+    margin: auto;
+    padding: 200px;
+   
+   
+    
+    
+}
+
+
+#about .about-down{
+    margin: auto;
+    
+    
+}
+
+#about img{
+    width: 300px;
+   
+    margin:40px;
+    
+}
+
+
+
+#about h1{
+    font-size: 2.8rem;
+    font-weight: 1;
+}
+
+#about p{
+    font-size: 1.5rem;
+    color: rgb(131, 127, 127)
+}
+
+#about .about-down p{
+    color: black;
+   line-height: 30px;
+}
+
+/* about section ends here */
+
+
+/* portfolio starts here */
+
+#portfolio .port-up1{
+    display: flex;
+    font-size: 1.5rem;   
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+    
+    
+}
+
+#portfolio .port-down1{
+    
+margin: 4%;
+ 
+}
+
+#portfolio h2{
+    font-size: 2.4rem;
+    font-weight: 1; 
+  
+}
+
+#portfolio .ph h2{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    
+}
+
+
+/* portfolio ends here */
+
+/* footer starts here */
+footer{
+    font-size: 1.6rem;
+    font-weight: 50;
+   
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+
+footer span{
+    color: crimson;
+}
