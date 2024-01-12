@@ -97,7 +97,7 @@
 
     align-items: center;
 
-
+ padding-bottom: 7rem;
    
   
  
@@ -190,7 +190,7 @@
     
     flex-wrap: wrap-reverse;
     
- 
+ padding-bottom: 7rem;
     
 }
 
@@ -201,6 +201,11 @@
     margin: 20px;
     
 }
+#about .about-down h1{
+padding-bottom: 4rem;
+    
+}
+
 
 
 
@@ -240,6 +245,11 @@
 
 /* portfolio starts here */
 
+#portfolio{
+    padding-bottom: 7rem;
+   
+}
+
 #portfolio .port-up1{
     display: flex;
     font-size: 1.5rem;   
@@ -264,6 +274,38 @@ margin: 4%;
     font-weight: 1; 
     color: rgb(117, 105, 105);
   
+}
+
+#portfolio .port-down1 p{
+    padding-bottom: 2rem;
+   
+}
+
+#portfolio .port-down2 p{
+    padding-bottom: 2rem;
+   
+}
+
+#portfolio .port-down1 img{
+   border-radius: 1rem;
+   
+}
+
+
+#portfolio .port-down2 img{
+    border-radius: 1rem;
+    
+ }
+
+
+#portfolio a{
+    text-decoration: none;
+    transition: 1s ease forwards;
+    transition-property: color;
+}
+
+#portfolio a:hover{
+    color: blue;
 }
 
 #portfolio .ph h2{
@@ -302,6 +344,7 @@ margin: 4%;
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
+    padding-bottom: 4rem;
  
 }
 #so-top .so-down{
@@ -309,13 +352,28 @@ margin: 4%;
     
 }
 
+#so-top img{
+    animation: move 3s linear infinite;
+}
+
+
+@keyframes move{
+   
+
+    100%{
+        transform: translateY(0.5rem);
+    }
+    
+}
+
+
 
  .soim1{
     border: 1px solid;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0px 0px 18px 0 crimson;
-    width: 70px;
+    width: 40px;
     transition: 1s ease inherit;
     transition-property:background-color, box-shadow;
 }
@@ -329,7 +387,7 @@ margin: 4%;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0px 0px 18px 0 crimson;
-    width: 70px;
+    width: 40px;
     transition: 1s ease inherit;
     transition-property:background-color, box-shadow;
 }
@@ -343,7 +401,7 @@ margin: 4%;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 0px 0px 18px 0 crimson;
-    width: 70px;
+    width: 40px;
     transition: 1s ease inherit;
     transition-property:background-color, box-shadow;
 }
